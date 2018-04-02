@@ -12,4 +12,4 @@ This is: static fic site fiddling by a really lazy new dev.
 ### full fathom html!
 - [x] add header.html with simple code
 - [x] add footer.html with simple code
-- [ ] modify `transform.py` so that it sews `hallo.md` up together with these dumb files~
+- [x] modify `transform.py` so that it sews `hallo.md` up together with these dumb files~

@@ -13,3 +13,7 @@ This is: static fic site fiddling by a really lazy new dev.
 - [x] add header.html with simple code
 - [x] add footer.html with simple code
 - [x] modify `transform.py` so that it sews `hallo.md` up together with these dumb files~
+
+### we need to go deeper >.>
+- [ ] pretty-print output file because why not
+- [ ] uhhh

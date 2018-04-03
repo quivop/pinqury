@@ -16,4 +16,5 @@ This is: static fic site fiddling by a really lazy new dev.
 
 ### we need to go deeper >.>
 - [ ] pretty-print output file because why not
-- [ ] uhhh
+	- [ ] use pandoc + pypandoc for markdown transform...
+	- [ ] AND pretty-print the resulting html

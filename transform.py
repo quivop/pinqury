@@ -1,6 +1,6 @@
 # script to transform markdown into html
 
-import CommonMark
+import pypandoc
 
 # grab markdown~
 md_file = open('md/hallo.md', 'r')
@@ -12,11 +12,11 @@ header = open('templates/header.html', 'r')
 footer = open('templates/footer.html', 'r')
 
 # convert markdown body~
-body = CommonMark.commonmark(md_string)
+body = pypandoc.convert_text(md_string, 'html', format='md')
 
 # stick it all together in a new file~
 
-ht_file = open('ht/hallo.html', 'w')
+ht_file = open('ht/hallo2.html', 'w')
 
 ht_file.write(header.read() + body + footer.read())
 ht_file.close()
